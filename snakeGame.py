@@ -21,7 +21,7 @@ class snakeGame():
         self.snake = []
         self.food_tile = []
         self.gamescore = 0
-        f = open("C:/Users/ANDREW/snakeGame_highscore.txt", "r")
+        f = open("snakeGame_highscore.txt", "r")
         self.highscore = int(f.readline())
         f.close()
 
